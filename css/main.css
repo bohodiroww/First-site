@@ -59,7 +59,7 @@ ul {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: cornflowerblue;
+    background: darkorchid;
 }
 
 .header__content {
@@ -67,10 +67,16 @@ ul {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    flex-direction: column;
 }
 
 h1 {
     font-size: 8vw;
+    color: #fff;
+}
+
+.header__content p {
+    font-size: 3vw;
     color: #fff;
 }
 
